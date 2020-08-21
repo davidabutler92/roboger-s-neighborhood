@@ -12,16 +12,21 @@ $(document).ready(function() {
     for(let i = 0; i <= userInput; i++) {
       arrInput = i;
       if(arrInput.toString().includes("3")) {
-        array.push("won't you be my neighbor");
+          array.push("won't you be my neighbor");
       } else if(arrInput.toString().includes("2")) {
-        array.push("boop");
+          array.push("boop");
+      } else if(arrInput.toString().includes()) {
+          array.push("boop");
+      } else {
+        array.push(arrInput);
       }
     }
-    console.log(array);
-    
+    // console.log(array);
+    //return array after looping
+    return(array);
   }
 
-    const userResults = calNums(userInut);
-    console.log(userResults);
+    const userResults = calNums(userInput);
+    // console.log(userResults);
   });
 });
