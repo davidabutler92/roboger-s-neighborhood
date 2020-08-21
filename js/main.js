@@ -23,9 +23,11 @@ $(function() {
   }); 
 }); 
 
-function refresh() {
+//Could not figure out how to write a refresh button, 
+//tried using location.reload(); 
+// function refresh() {
+// }
 
-}
 //UI logic
 $(document).ready(function() {
   $("#robogersForm").submit(function(event) {
