@@ -16,7 +16,7 @@ $(document).ready(function() {
       } else if(arrInput.toString().includes("2")) {
           array.push("boop");
       } else if(arrInput.toString().includes()) {
-          array.push("boop");
+          array.push("beep");
       } else {
         array.push(arrInput);
       }
@@ -28,5 +28,6 @@ $(document).ready(function() {
 
     const userResults = calNums(userInput);
     // console.log(userResults);
+    $("#results").text(userResults);
   });
 });
