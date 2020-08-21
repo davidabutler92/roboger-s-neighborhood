@@ -1,6 +1,7 @@
 //UI logic
 $(document).ready(function() {
-  $("#robogersForm").click(function(event) {
-   
+  $("#robogersForm").submit(function(event) {
+    event.preventDefault();
+    const userInput = $("$userInput").val();
   });
 });
