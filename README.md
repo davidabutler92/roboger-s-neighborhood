@@ -18,7 +18,7 @@
 | :-------------     | :------------- | :------------- |
 |  1. The program returns a number | 4 | 4 | 
 |  2. The program returns a range of numbers from 0 to the users inputted number | 4 | 0, 1, 2, 3, 4 | 
-|  3. The program will replace the numbers container 3 with "wont you be my neighbor?" | 4 | 0, 1, 2, won't you be my neighbor?, 4 | 
+|  3. The program will replace the numbers containing 3 with "wont you be my neighbor?" | 4 | 0, 1, 2, won't you be my neighbor?, 4 | 
 |  4. The program will replace the numbers containing 2 with "boop" | 4 | 0, 1, boop, won't you be my neighbor?, 4 |
 |  5. The program will replace numbers containing 1 with "beep | 4 | 0, beep, boop, won't you be my neighbor?, 4 |
 |  5. The program prioritizes 3 over 2 ad 1 | 321 | won't you be my neighbor? |
