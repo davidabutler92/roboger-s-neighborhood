@@ -3,19 +3,26 @@ $(document).ready(function() {
   $("#robogersForm").submit(function(event) {
     event.preventDefault();
     const userInput = $("#userInput").val();
-    console.log(userInput);
+    // console.log(userInput);
 
 
 //Business logic
-const numbers = userInput => {
-  const array = [];
-  for(let i = 0; i <= userInput; i++) {
-    arrayInput = i
-    if(arrayInput.toString().includes("3")) {
-      array.push("won't yu be my neighbor?");
+  const calNums = userInput => {
+    let array = [];
+    for(let i = 0; i <= userInput; i++) {
+      arrInput = i;
+      if(arrInput.toString().includes("3")) {
+        array.push("won't you be my neighbor");
+      } else if(arrInput.toString().includes("2")) {
+        array.push("beep");
+      }
     }
+    console.log(array);
+    return(array);
   }
-}
-console.log(newNumbers);
+
+
+
+
   });
 });
