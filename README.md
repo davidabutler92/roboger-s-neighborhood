@@ -21,8 +21,8 @@
 |  3. The program will replace the numbers containing 3 with "wont you be my neighbor?" | 4 | 0, 1, 2, won't you be my neighbor?, 4 | 
 |  4. The program will replace the numbers containing 2 with "boop" | 4 | 0, 1, boop, won't you be my neighbor?, 4 |
 |  5. The program will replace numbers containing 1 with "beep | 4 | 0, beep, boop, won't you be my neighbor?, 4 |
-|  5. The program prioritizes 3 over 2 ad 1 | 321 | won't you be my neighbor? |
-|  6. The program prioritizes 3 over 2 ad 1 | 21 |boop |
+|  5. The program prioritizes 3 over 2 and 1 | 321 | won't you be my neighbor? |
+|  6. The program prioritizes 3 over 2 and 1 | 21 |boop |
 |  7. The programs range should look like this with above logic | 5 | 0, beep, boop, won't you be my neighbor? 4, 5---9, beep, beep, boop, won't you be my neighbor? 14 |
 | The program ignores non numerical values | Hello | "ERROR, ENTER NUMBERS ONLY! BEEP-BOOP |
 
