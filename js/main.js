@@ -8,7 +8,14 @@ $(document).ready(function() {
 
 //Business logic
 const numbers = userInput => {
-  const newNumbers = [];
+  const array = [];
+  for(let i = 0; i <= userInput; i++) {
+    arrayInput = i
+    if(arrayInput.toString().includes("3")) {
+      array.push("won't yu be my neighbor?");
+    }
+  }
 }
+console.log(newNumbers);
   });
 });
