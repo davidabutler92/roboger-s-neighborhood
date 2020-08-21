@@ -4,7 +4,7 @@
     for(let i = 0; i <= userInput; i++) {
       arrInput = i;
       if(arrInput.toString().includes("3")) {
-          array.push("won't you be my neighbor");
+          array.push("won't you be my neighbor?");
       } else if(arrInput.toString().includes("2")) {
           array.push("boop");
       } else if(arrInput.toString().includes("1")) {
@@ -22,11 +22,6 @@ $(function() {
       $(this).val($(this).val().replace(/[^0-9]/g, '')); 
   }); 
 }); 
-
-//Could not figure out how to write a refresh button, 
-//tried using location.reload(); 
-// function refresh() {
-// }
 
 //UI logic
 $(document).ready(function() {
