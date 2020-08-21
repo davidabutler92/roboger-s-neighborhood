@@ -1,4 +1,4 @@
-# roboger's-neighborhood
+# robogers-neighborhood
 ## Goal 
 
 #### The goal is to show an understanding of arrays and looping.
