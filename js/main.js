@@ -28,5 +28,7 @@ $(document).ready(function() {
     const userResults = calNums(userInput);
     // console.log(userResults);
     $("#results").text(userResults);
+    $("#container-1").hide();
+    $("#results").show();
   });
 });
