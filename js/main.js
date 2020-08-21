@@ -1,11 +1,3 @@
-//UI logic
-$(document).ready(function() {
-  $("#robogersForm").submit(function(event) {
-    event.preventDefault();
-    const userInput = $("#userInput").val();
-    // console.log(userInput);
-
-
 //Business logic
   const calNums = userInput => {
     const array = [];
@@ -24,9 +16,19 @@ $(document).ready(function() {
     //return array after looping
     return(array);
   }
+  
+$(function() { 
+  $("input[name='userInput']").on('input', function(e) { 
+      $(this).val($(this).val().replace(/[^0-9]/g, '')); 
+  }); 
+}); 
 
+//UI logic
+$(document).ready(function() {
+  $("#robogersForm").submit(function(event) {
+    event.preventDefault();
+    const userInput = $("#userInput").val();
     const userResults = calNums(userInput);
-    // console.log(userResults);
     $("#results").text(userResults);
     $("#container-1").hide();
     $("#results").show();
