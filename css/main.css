@@ -17,15 +17,17 @@ body {
 .jumbotron {
   background: none;
   left: 60%;
+  color: rgb(238, 94, 94);
 }
 
 #results {
   display: none;
   font-size: 200%;
   margin: 0;
+  color: rgb(238, 94, 94);
   position: absolute;
   top: 50%;
-  left: 65%;
+  left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%)
 }
@@ -33,12 +35,25 @@ body {
 #refresh-btn {
   margin: 0;
   position: absolute;
-  top: 10%;
-  left: 90%;
+  top: 80%;
+  left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%)
 }
 
 #refreshButton {
   display: none;
+}
+
+small.text-muted {
+  color: rgb(76, 142, 168);
+}
+
+#copyright {
+  margin: 0;
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
 }
