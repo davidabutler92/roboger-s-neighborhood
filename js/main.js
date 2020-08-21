@@ -23,6 +23,7 @@ $(function() {
   }); 
 }); 
 
+
 //UI logic
 $(document).ready(function() {
   $("#robogersForm").submit(function(event) {

@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+#result-container {
+  text-align: center;
+}
+
 /* .class {
   text-shadow: black;
 } */
@@ -26,6 +30,15 @@ body {
   position: absolute;
   top: 50%;
   left: 65%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+#refresh-btn {
+  margin: 0;
+  position: absolute;
+  top: 10%;
+  left: 90%;
   margin-right: -50%;
   transform: translate(-50%, -50%)
 }
