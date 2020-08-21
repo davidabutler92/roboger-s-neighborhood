@@ -15,13 +15,12 @@ $(document).ready(function() {
           array.push("won't you be my neighbor");
       } else if(arrInput.toString().includes("2")) {
           array.push("boop");
-      } else if(arrInput.toString().includes()) {
+      } else if(arrInput.toString().includes("1")) {
           array.push("beep");
       } else {
         array.push(arrInput);
       }
     }
-    // console.log(array);
     //return array after looping
     return(array);
   }
