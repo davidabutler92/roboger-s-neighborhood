@@ -4,5 +4,11 @@ $(document).ready(function() {
     event.preventDefault();
     const userInput = $("#userInput").val();
     console.log(userInput);
+
+
+//Business logic
+const numbers = userInput => {
+  const newNumbers = [];
+}
   });
 });
