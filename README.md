@@ -29,7 +29,7 @@
 
 ## Setup/Installation Requirements
 * Sign into your github and click on this link below
-* Click on fork on the top right corner @ [Click here]()
+* Click on fork on the top right corner @ [Click here](https://github.com/davidabutler92/robogers-neighborhood.git)
 * Now you have a copy of the repo and can edit it how you please.
 * To see on gh-pages [Click here](https://davidabutler92.github.io/robogers-neighborhood/) 
 
