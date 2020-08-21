@@ -23,7 +23,9 @@ $(function() {
   }); 
 }); 
 
+function refresh() {
 
+}
 //UI logic
 $(document).ready(function() {
   $("#robogersForm").submit(function(event) {
@@ -33,5 +35,6 @@ $(document).ready(function() {
     $("#results").text(userResults);
     $("#container-1").hide();
     $("#results").show();
+    $("#refreshButton").show();
   });
 });

@@ -6,10 +6,6 @@
   text-align: center;
 }
 
-/* .class {
-  text-shadow: black;
-} */
-
 body {
   background-image: url(../img/bt5myz.jpg);
   background-repeat: no-repeat;
@@ -41,4 +37,8 @@ body {
   left: 90%;
   margin-right: -50%;
   transform: translate(-50%, -50%)
+}
+
+#refreshButton {
+  display: none;
 }
