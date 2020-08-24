@@ -28,10 +28,13 @@
 
 
 ## Setup/Installation Requirements
-* Sign into your github and click on this link below
-* Click on fork on the top right corner @ [Click here](https://github.com/davidabutler92/robogers-neighborhood.git)
-* Now you have a copy of the repo and can edit it how you please.
-* To see on gh-pages [Click here](https://davidabutler92.github.io/robogers-neighborhood/) 
+* Sign into your github and navigate to this link [click here](https://github.com/davidabutler92/robogers-neighborhood.git) 
+* Under the repository name, click Clone, 'green button'
+* Then click the copy button next to the URL
+* Open the terminal and type, git clone https://github.com/davidabutler92/robogers-neighborhood.git
+* Navigate to the root directory in the terminal and type ‘open index.html’ to view project in browser
+* Open project in text editor to view code
+* To see on gh-pages [Click here](https://davidabutler92.github.io/robogers-neighborhood/)
 
 ## Known Bugs 
 #### There are no known bugs at the time.
@@ -48,5 +51,5 @@
 #### jQuery 
 #### Markdown
 
-#### Copyright (c) 2020 **_{David Butler}_**
+#### Copyright (c) 2020 **_David Butler_**
 #### The software is licensed under the MIT license [Click here](LICENSE.md)
