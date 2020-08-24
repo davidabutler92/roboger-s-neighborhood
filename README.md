@@ -2,7 +2,7 @@
 ## Goal 
 
 #### The goal is to show an understanding of arrays and looping.
-#### By _**{David Butler}**_
+#### By _**David Butler**_
 
 ## Description
 #### Create a web application that takes a number from a user and returns a range of numbers from 0 to the user inputted number with the following exceptions:
